@@ -13,7 +13,7 @@ function convertFahrToCelsius(f){
     }else if(isNaN(temp) === true || temp === ''){
         console.log(`"${JSON.stringify(temp)} is not a valid number but a/an string."`)
     }else{
-        // console.log(Number(celsius.toFixed(4)))
+        console.log(Number(celsius.toFixed(4)))
         return Number(celsius.toFixed(4));
     }
 }
