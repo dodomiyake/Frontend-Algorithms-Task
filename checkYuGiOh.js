@@ -32,7 +32,7 @@ function checkYuGiOh (n){
             multiples.push(i);
         }
 
-        // console.log(multiples)
+        console.log(multiples)
     }
     return multiples;
 }
