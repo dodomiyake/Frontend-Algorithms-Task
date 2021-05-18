@@ -31,8 +31,6 @@ function checkYuGiOh (n){
         }else{
             multiples.push(i);
         }
-
-        console.log(multiples)
     }
     return multiples;
 }
